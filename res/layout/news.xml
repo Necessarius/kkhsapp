@@ -39,6 +39,12 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Archives" />
+            <Button
+        android:id="@+id/enotes"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="eNotes" />
             
             
        

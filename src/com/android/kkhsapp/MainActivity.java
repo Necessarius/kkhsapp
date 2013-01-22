@@ -8,13 +8,11 @@ import android.widget.Button;
 
 public class MainActivity extends Activity {
 
-    /**
-     * Called when the activity is first created.
-     */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
 
         final Button button1 = (Button) findViewById(R.id.studentnews);
         button1.setOnClickListener(new View.OnClickListener() {
@@ -32,8 +30,17 @@ public class MainActivity extends Activity {
                 startActivity(links);
             }
         });
-        final Button button3 = (Button) findViewById(R.id.about);
+
+        final Button button3 = (Button) findViewById(R.id.calendar);
         button3.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent calendar = new Intent().setClass(MainActivity.this, Calendar.class);
+                startActivity(calendar);
+            }
+        });
+        final Button button4 = (Button) findViewById(R.id.about);
+        button4.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
                 Intent about = new Intent().setClass(MainActivity.this, AboutActivity.class);
@@ -41,8 +48,8 @@ public class MainActivity extends Activity {
             }
         });
 
-        final Button button4 = (Button) findViewById(R.id.credits);
-        button4.setOnClickListener(new View.OnClickListener() {
+        final Button button5 = (Button) findViewById(R.id.credits);
+        button5.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
                 Intent credits = new Intent().setClass(MainActivity.this, CreditsActivity.class);

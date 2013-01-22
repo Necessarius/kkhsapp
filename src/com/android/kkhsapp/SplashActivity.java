@@ -8,7 +8,7 @@ import java.util.TimerTask;
 
 public class SplashActivity extends Activity {
 
-    private long splashDelay = 5000; //5 seconds
+    private long splashDelay = 2500; //5 seconds
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

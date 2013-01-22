@@ -4,6 +4,8 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
 >
+        
+        
     <TextView  
         android:layout_width="fill_parent" 
         android:layout_height="100px" 
@@ -21,13 +23,21 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Useful links" />
-  <Button
+    <Button
+        android:id="@+id/calendar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calendar">
+                
+    </Button>
+    <Button
         android:id="@+id/about"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="About this app" />
-   <Button
+    <Button
         android:id="@+id/credits"
         android:layout_width="100dp"
         android:layout_height="wrap_content"

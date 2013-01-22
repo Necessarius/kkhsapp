@@ -6,11 +6,18 @@
               android:background="#000000">
     <TextView
         android:layout_width="fill_parent"
+        android:layout_height="350dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="This is a software application written for the 2.3.3 version of the Android Operating System. My goal is to create a tool for students to be able to access and keep up with the latest news of King Kekaulike. I believe that all the resources should be kept in a centralized fashion and that is the mindset I kept while programming this app. Enjoy :3 "
+    >
+    </TextView>
+        <TextView
+        android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:gravity="center"
         android:textColor="#FFFFFF"
-        android:text="This is a software application written for the 2.3.3 version of the Android Operating System. My goal is to create a tool for students to be able to access and keep up with the latest news of King Kekaulike. I believe that all the resources should be kept in a centralized fashion and that is the mindset I kept while programming this app. I am going "
-    >
+        android:text="Written by Mario Canul. Copyleft 2012-2013; \nAll Wrongs Reserved">
     </TextView>
                          
 </LinearLayout>

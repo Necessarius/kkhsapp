@@ -1,6 +1,7 @@
 /home/index/src/Senior Project/bin/classes.dex : \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/AboutActivity.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/ArchivesMenu.class \
+/home/index/src/Senior Project/bin/classes/com/android/kkhsapp/Calendar.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/CounselorNews.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/CreditsActivity.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/LinksActivity.class \
@@ -8,18 +9,21 @@
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/MainActivity$2.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/MainActivity$3.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/MainActivity$4.class \
+/home/index/src/Senior Project/bin/classes/com/android/kkhsapp/MainActivity$5.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/MainActivity.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/NewsActivity$1.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/NewsActivity$2.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/NewsActivity$3.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/NewsActivity$4.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/NewsActivity$5.class \
+/home/index/src/Senior Project/bin/classes/com/android/kkhsapp/NewsActivity$6.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/NewsActivity.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/ParentNews.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/SeniorNews.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/SplashActivity$1.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/SplashActivity.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/StudentNews.class \
+/home/index/src/Senior Project/bin/classes/com/android/kkhsapp/eNotes.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/BuildConfig.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/R$attr.class \
 /home/index/src/Senior Project/bin/classes/com/android/kkhsapp/R$drawable.class \

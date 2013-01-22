@@ -20,9 +20,7 @@ import org.jsoup.select.Elements;
  */
 public class StudentNews extends Activity {
 
-    /**
-     * Called when the activity is first created.
-     */
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
                 try {

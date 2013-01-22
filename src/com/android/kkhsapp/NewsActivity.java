@@ -18,9 +18,6 @@ public class NewsActivity extends Activity {
         return activeNetworkInfo != null;
     }
 
-    /**
-     * Called when the activity is first created.
-     */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -88,6 +85,19 @@ public class NewsActivity extends Activity {
                 if (isNetworkAvailable() == true) {
                     Intent archives = new Intent().setClass(NewsActivity.this, ArchivesMenu.class);
                     startActivity(archives);
+                } else {
+                    Toast.makeText(getApplicationContext(), "Please enable your network", Toast.LENGTH_LONG).show();
+                }
+            }
+        });
+
+        final Button button6 = (Button) findViewById(R.id.enotes);
+        button6.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                if (isNetworkAvailable() == true) {
+                    Intent enotes = new Intent().setClass(NewsActivity.this, eNotes.class);
+                    startActivity(enotes);
                 } else {
                     Toast.makeText(getApplicationContext(), "Please enable your network", Toast.LENGTH_LONG).show();
                 }
