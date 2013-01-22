@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+>
+    <TextView  
+        android:layout_width="fill_parent" 
+        android:layout_height="100px" 
+        android:text="Please select the type of news that you want to read."
+    />
+    <Button
+        android:id="@+id/seniornews"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Senior News" />
+    <Button
+        android:id="@+id/studentnews"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Student News" />
+    <Button
+        android:id="@+id/parentnews"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Parent News" />
+    <Button
+        android:id="@+id/counselornews"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Counselor News" />
+    <Button
+        android:id="@+id/archives"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Archives" />
+            
+            
+       
+</LinearLayout>
+

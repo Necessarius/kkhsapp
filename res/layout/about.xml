@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="#000000">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="This is a software application written for the 2.3.3 version of the Android Operating System. My goal is to create a tool for students to be able to access and keep up with the latest news of King Kekaulike. I believe that all the resources should be kept in a centralized fashion and that is the mindset I kept while programming this app. I am going "
+    >
+    </TextView>
+                         
+</LinearLayout>

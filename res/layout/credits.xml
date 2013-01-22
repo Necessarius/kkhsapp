@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#000000">
+    <TextView        
+        android:layout_width="fill_parent" 
+        android:textColor="#FFFFFF"
+        android:layout_height="60px"
+        android:text="Thanks for everyone that supported me in this project!">
+
+    </TextView>
+    <TextView        
+        android:layout_width="fill_parent" 
+        android:layout_height="60px" 
+        android:textColor="#FFFFFF"
+
+        android:text="Jon D. Romero Schmidt - Graphics, helped make the splashscreen">
+
+    </TextView>
+    <TextView        
+        android:layout_width="fill_parent" 
+        android:layout_height="60px" 
+        android:textColor="#FFFFFF"
+        
+        android:text="Mr. Ancheta - My senior mentor, stay awesome Ancheta!">
+
+    </TextView>
+    <TextView        
+        android:layout_width="fill_parent" 
+        android:layout_height="60px" 
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:text="Beta testers:">
+
+    </TextView>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+    >
+    </TextView>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.android.kkhsapp"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application android:icon="@drawable/logo" 
+                 android:label="King Kekaulike High School App" 
+                 android:theme="@android:style/Theme.NoTitleBar">
+        <activity android:name=".SplashActivity"
+                  android:label="King Kekaulike High School App"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".NewsActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".CreditsActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".LinksActivity"
+                  android:label="@string/app_name">
+            
+        </activity>
+        <activity android:name=".AboutActivity"
+                  android:label="@string/app_name">
+            
+        </activity>
+        <activity android:name=".SeniorNews"
+                  android:label="@string/app_name">
+            
+        </activity>
+        <activity android:name=".StudentNews"
+                  android:label="@string/app_name">
+            
+        </activity>
+        <activity android:name=".ParentNews"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".CounselorNews"
+                  android:label="@string/app_name">        
+        </activity>
+        <activity android:name=".ArchivesMenu"
+                  android:label="@string/app_name">
+            
+        </activity>
+            
+
+            
+
+        
+       
+        
+
+    </application>
+
+
+</manifest> 
