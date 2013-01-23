@@ -14,10 +14,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
-/**
- *
- * @author index
- */
+
 public class StudentNews extends Activity {
 
 
@@ -28,7 +25,7 @@ public class StudentNews extends Activity {
             setContentView(R.layout.webview);
             WebView myWebView = (WebView) findViewById(R.id.webview);
             Document doc = Jsoup.connect("http://www.k12.hi.us/~kekaulik/").get();
-            Elements ele = doc.select("td[height=436]");
+            Elements ele = doc.select("tr.style11").select("td").select("tbody").select("tr:eq(4)").select("td:eq( 0)");
             String html = ele.toString();
             String mime = "text/html";
             String encoding = "utf-8";

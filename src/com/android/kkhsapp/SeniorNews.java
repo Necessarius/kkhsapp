@@ -28,7 +28,7 @@ public class SeniorNews extends Activity {
             setContentView(R.layout.webview);
             WebView myWebView = (WebView) findViewById(R.id.webview);
             Document doc = Jsoup.connect("http://www.k12.hi.us/~kekaulik/").get();
-            Elements ele = doc.select("td[height=204]");
+            Elements ele = doc.select("table.style11").select("tbody").select("tr:eq(2)");
             String html = ele.toString();
             String mime = "text/html";
             String encoding = "utf-8";

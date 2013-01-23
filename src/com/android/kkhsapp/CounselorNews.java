@@ -30,12 +30,15 @@ public class CounselorNews extends Activity {
             setContentView(R.layout.webview);
             WebView myWebView = (WebView) findViewById(R.id.webview);
             Document doc = Jsoup.connect("http://www.k12.hi.us/~kekaulik/").get();
-            Elements ele = doc.select("td[height=455]");
+    //        Document doc = Jsoup.connect("http://www.k12.hi.us/~kekaulik/counsel/scholarships.html").get();
+            Elements ele = doc.select("tr.style11").select("td").select("tbody").select("tr:eq(6)").select("td:eq(0)");
+           // Elements ele = doc.select("td.storyLeft").select("p:gt(0)");
             String html = ele.toString();
             String mime = "text/html";
             String encoding = "utf-8";
             myWebView.getSettings().setJavaScriptEnabled(true);
-            myWebView.loadDataWithBaseURL(null,html, mime, encoding,null);    
+        //    myWebView.loadDataWithBaseURL(null,html, mime, encoding,"http://www.k12.hi.us/~kekaulik/counsel/scholarships.html");    
+            myWebView.loadDataWithBaseURL(null,html, mime, encoding,"http://www.k12.hi.us/~kekaulik/"); 
         } catch (IOException ex) {
             Logger.getLogger(NewsActivity.class.getName()).log(Level.SEVERE, null, ex);
         }
